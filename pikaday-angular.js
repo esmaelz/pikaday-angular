@@ -76,6 +76,7 @@
             case "yearRange":
             case "numberOfMonths":
             case "mainCalendar":
+            case "pickWholeWeek":
 
               config[attr] = scope.$eval(value);
               break;
